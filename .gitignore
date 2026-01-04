@@ -1,0 +1,70 @@
+############################
+# OS / System Files
+############################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+############################
+# IDE / Editor
+############################
+.vscode/
+.idea/
+*.iml
+
+############################
+# Node / n8n
+############################
+node_modules/
+.n8n/
+npm-debug.log*
+yarn-error.log*
+
+############################
+# Docker
+############################
+.env
+.env.*
+docker-compose.override.yml
+*.log
+
+############################
+# AWS / Cloud
+############################
+.aws/
+*.pem
+*.key
+credentials
+config
+
+############################
+# Terraform (future-proof)
+############################
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+
+############################
+# Logs & Temp Files
+############################
+logs/
+tmp/
+temp/
+*.out
+
+############################
+# Build / Dist
+############################
+dist/
+build/
+
+############################
+# Security
+############################
+secrets/
+*.secret
+*.crt
+*.csr
